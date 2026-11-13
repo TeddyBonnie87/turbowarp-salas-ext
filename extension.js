@@ -28,7 +28,7 @@
                         arguments: {
                             URL: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'wss://tu-servidor.glitch.me'
+                                defaultValue: 'wss://turbowarp-salas-server.onrender.com'
                             }
                         }
                     },
@@ -43,7 +43,7 @@
                             },
                             NOMBRE: {
                                 type: Scratch.ArgumentType.STRING,
-                                defaultValue: 'Partida Publica'
+                                defaultValue: 'Partida Pública'
                             }
                         }
                     },
@@ -144,3 +144,4 @@
 
     Scratch.extensions.register(new SalasExtension());
 })(Scratch);
+                
